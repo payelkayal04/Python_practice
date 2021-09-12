@@ -4,6 +4,7 @@ def rev_sentence():
     sentence = sentence[::-1]
     return sentence
 
+#print(rev_sentence())
 
 word = "payel"
 

@@ -13,6 +13,7 @@ def generate_prime_numbers_within_a_range():
                break
         else:
                 list1.append(str(n))
+    #print(list1)
     print(','.join(list1))
 
 generate_prime_numbers_within_a_range()

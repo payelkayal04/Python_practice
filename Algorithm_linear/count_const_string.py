@@ -1,4 +1,4 @@
-input_string_1 = "Hello World"
+input_string_1 = "HELlo World"
 input_string_2 = "PythonProGramming"
 # output = HllWrld
 vowel = "aeiou"
@@ -6,6 +6,7 @@ vowel = "aeiou"
 
 def iterative_const_count(input_string):
     count = 0
+    input_string = input_string.lower()
     for i in range(len(input_string)):
         if input_string[i] not in vowel and input_string[i].isalpha():
             count += 1
