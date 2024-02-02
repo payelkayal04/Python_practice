@@ -14,3 +14,4 @@ for i in lst:
 print("Sum : ", s)
 average = (s/(len(lst)))
 print("The average is : ", average)
+
